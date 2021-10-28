@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- =-= Connect style file =-= -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>LogIn Form</title>
+</head>
+
+<body>
+    <form action="#" class="login-from">
+        <!--=-= Login form icon =-=-->
+        <header class="avatar">
+            <img src="./assets/images/img_avatar2.png" alt="Avatar Icon" class="avatar__photo">
+        </header>
+
+        <!--=-= Main form Area =-=-->
+        <main class="container">
+            <label for="userN" class="continer__label">Username</label>
+            <input type="text" placeholder="Enter Username" class="container__input" id="userN">
+
+            <label for="passW" class="continer__label">Password</label>
+            <input type="password" placeholder="Enter Password" class="container__input" id="passW">
+
+            <button type="submit" class="login-btn">Login</button>
+
+            <label for="remCheck" class="recheck">
+                <input type="checkbox" id="remCheck" > Remember me
+            </label>
+        </main>
+
+        <!--=-= Cancel or forgot password area =-=-->
+        <footer class="container__forgot">
+            <a href="#" class="cancel__forgot-passW">Forgot password?</a>
+        </footer>
+    </form>
+</body>
+
+</html>
